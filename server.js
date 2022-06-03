@@ -4,8 +4,8 @@ const { appendFile } = require('fs');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-const apiRoutes = require('./routes/apiRoutes');
-const htmlRoutes = require('./routes/htmlRoutes');
+const apiRoutes = require('./routes/noteRoutes');
+const htmlRoutes = require('./routes/index');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

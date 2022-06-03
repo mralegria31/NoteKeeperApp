@@ -1,8 +1,8 @@
 // Core Setup
 const router = require('express').Router();
-const { createNewNote, deleteNote } = require('../../lib/notes');
-const notes = require('../../Develop/db/db.json');
-const { uuid, fromString } = require('uuidv4');
+const { createNewNote, deleteNote } = require('../lib/notes');
+const notes = require('../Develop/db/db.json');
+const { uuid, fromString } = require('uuid');
 const fs = require('fs');
 
 // reads db and returns all saved notes
@@ -36,3 +36,5 @@ router.post('/notes', (req, res) => {
     })
 });
 
+//export information
+module.exports = router;
