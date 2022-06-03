@@ -30,4 +30,5 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Heroku App Link:
 [click here](Develop/public/assets/images/notetakerappscreensshot.png)
+
 ## CREATED BY Francisco Alegria
