@@ -1,7 +1,7 @@
 // Core Setup
 const router = require('express').Router();
 const { createNewNote, deleteNote } = require('../../lib/notes');
-const notes = require('../../db/db.json');
+const notes = require('../../Develop/db/db.json');
 const { uuid, fromString } = require('uuidv4');
 const fs = require('fs');
 
