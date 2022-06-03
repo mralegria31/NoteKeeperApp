@@ -26,10 +26,10 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
-![alt text] (Develop/public/assets/images/Screenshot 2022-06-03 at 05.30.05.png)
+![alt text](Develop/public/assets/images/notetakerappscreensshot.png)
 
 ## Heroku App Link:
-[click here](Develop/public/assets/images/notetakerappscreensshot.png)
+[click here](https://peaceful-refuge-46420.herokuapp.com/)
 
 ## CREATED BY
  Francisco Alegria
