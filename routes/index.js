@@ -4,12 +4,12 @@ const router = require('express').Router();
 
 // send file to notes.html
 router.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Develop/public/notes.html'));
+    res.sendFile(path.join(__dirname, '../Develop/public/notes.html'));
 });
 
 // send file to index.html
 router.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'Develop/public/index.html'));
+    res.sendFile(path.join(__dirname, '../Develop/public/index.html'));
 });
 
 // export router
