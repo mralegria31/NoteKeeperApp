@@ -27,5 +27,5 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ```
 
 ## Heroku App Link:
-[click here](https://notetakerapppp.herokuapp.com/)
+[click here](https://dashboard.heroku.com/apps/peaceful-refuge-46420/)
 ## CREATED BY Francisco Alegria
